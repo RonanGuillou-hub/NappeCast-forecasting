@@ -1,11 +1,3 @@
-output "aws_iam_access_key_tfer--AKIA4JCB4FK3DLK7AUG3_id" {
-  value = "${aws_iam_access_key.tfer--AKIA4JCB4FK3DLK7AUG3.id}"
-}
-
-output "aws_iam_access_key_tfer--AKIA4JCB4FK3GABT3PM6_id" {
-  value = "${aws_iam_access_key.tfer--AKIA4JCB4FK3GABT3PM6.id}"
-}
-
 output "aws_iam_group_policy_attachment_tfer--ec2-admin_AmazonEC2ContainerRegistryFullAccess_id" {
   value = "${aws_iam_group_policy_attachment.tfer--ec2-admin_AmazonEC2ContainerRegistryFullAccess.id}"
 }
